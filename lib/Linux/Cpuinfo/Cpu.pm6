@@ -1,6 +1,6 @@
 use v6;
 
-class Linux::Cpuinfo::Cpu {
+class Linux::Cpuinfo::Cpu:ver<v0.0.1>:auth<github:jonathanstowe> {
    has %.fields;
    multi method new(Str $cpu ) {
       my %fields;

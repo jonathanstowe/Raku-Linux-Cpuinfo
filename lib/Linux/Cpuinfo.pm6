@@ -2,7 +2,7 @@ use v6;
 
 use Linux::Cpuinfo::Cpu;
 
-class Linux::Cpuinfo {
+class Linux::Cpuinfo:ver<v0.0.1>:auth<github:jonathanstowe> {
    has Str $.filename = '/proc/cpuinfo';
    has Linux::Cpuinfo::Cpu @.cpus;
    has Int $.num_cpus;
