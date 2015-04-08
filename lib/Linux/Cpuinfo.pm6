@@ -2,6 +2,47 @@ use v6;
 
 use Linux::Cpuinfo::Cpu;
 
+=begin pod
+
+=begin NAME
+
+Linux::Cpuinfo - Object Oriented Interface to /proc/cpuinfo
+
+=end NAME
+
+=begin SYNOPSIS
+
+=begin code
+
+  use Linux::Cpuinfo;
+
+  my $cpuinfo = Linux::Cpuinfo.new();
+
+  my $cnt  = $cpuinfo.num_cpus();   # > 1 for an SMP system
+
+  for $cpuinfo.cpus -> $cpu {
+     say $cpu.bogomips;
+  }
+
+=end code
+
+=end SYNOPSIS
+
+=begin DESCRIPTION
+
+On Linux systems various information about the CPU ( or CPUs ) in the
+computer can be gleaned from C</proc/cpuinfo>. This module provides an
+object oriented interface to that information for relatively simple use
+in Perl programs.
+
+=end DESCRIPTION
+
+=begin METHODS
+
+=end METHODS
+
+=end pod
+
 class Linux::Cpuinfo:ver<v0.0.1>:auth<github:jonathanstowe> {
    has Str $.filename = '/proc/cpuinfo';
    has Linux::Cpuinfo::Cpu @.cpus;
@@ -9,6 +50,10 @@ class Linux::Cpuinfo:ver<v0.0.1>:auth<github:jonathanstowe> {
    has Str $.arch = $*KERNEL.hardware;
    has $.cpu_class;
 
+   #| Returns an L<doc:Array> of objects of a sub-class of L<doc:Linux::Cpuinfo::Cpu>
+   #| that contain the details of each cpu core in the system.  This may be more than
+   #| the physical cores in the processor chip(s) if the processor has some mechanism
+   #| such as "hyper-threading".
    multi method cpus() {
       if not @!cpus.elems > 0 {
          my Buf $buf = Buf.new;
@@ -56,6 +101,7 @@ class Linux::Cpuinfo:ver<v0.0.1>:auth<github:jonathanstowe> {
       $!cpu_class;
    }
 
+   #| Returns the number of CPU cores reported by the kernel.
    method num_cpus() {
       if not $!num_cpus.defined {
          $!num_cpus = self.cpus.elems;
