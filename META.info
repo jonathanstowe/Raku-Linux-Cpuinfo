@@ -5,7 +5,7 @@
   "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk>" ],
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "auth" : "github:jonathanstowe",
-  "version" : "v0.0.1",
+  "version" : "v0.0.2",
   "build-depends" : [ ],
   "test-depends" : [
     "Test"
