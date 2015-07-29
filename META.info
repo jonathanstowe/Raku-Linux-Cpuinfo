@@ -6,8 +6,10 @@
   "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk>" ],
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "auth" : "github:jonathanstowe",
-  "version" : "v0.0.3",
-  "build-depends" : [ ],
+  "version" : "v0.0.4",
+  "build-depends" : [ 
+	   "panda"
+   ],
   "test-depends" : [
     "Test"
   ],
