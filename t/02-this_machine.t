@@ -3,7 +3,6 @@
 use v6.c;
 
 use Test;
-plan 228;
 
 use Linux::Cpuinfo;
 
@@ -25,6 +24,8 @@ if $*KERNEL.name eq 'linux' {
     is($ci.num-cpus, $count_cpus, "and we saw as many cpus as we expected");
 }
 else {
+    # Of course we don't actualy know how many tests we will have
+    plan 228;
     skip-rest "not Linux won't test";
 }
 
