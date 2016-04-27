@@ -1,8 +1,6 @@
 #!perl6
 
-use v6;
-
-use lib "lib";
+use v6.c;
 
 use Test;
 use Linux::Cpuinfo;

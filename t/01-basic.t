@@ -1,9 +1,8 @@
 #!perl6
 
-use v6;
+use v6.c;
 
 use Test;
-use lib 'lib';
 
 use-ok('Linux::Cpuinfo', 'Linux::Cpuinfo can be used');
 use-ok('Linux::Cpuinfo::Cpu', 'Linux::Cpuinfo::Cpu can be used');
