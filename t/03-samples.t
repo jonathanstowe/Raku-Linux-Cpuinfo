@@ -14,7 +14,7 @@ for 't/proc'.IO.dir.grep({ .f }) -> $file {
    isa-ok($ci, Linux::Cpuinfo, "and it's the right kind of thing");
    is($ci.arch, $<arch>, "check we set arch right");
 
-   ok($ci.num_cpus > 0, "got some CPUs");
+   ok($ci.num-cpus > 0, "got some CPUs");
 
    my $count_cpus = 0;
    for $ci.cpus -> $cpu {
@@ -27,7 +27,7 @@ for 't/proc'.IO.dir.grep({ .f }) -> $file {
       }
    }
 
-   is($ci.num_cpus, $count_cpus, "and we saw as many cpus as we expected");
+   is($ci.num-cpus, $count_cpus, "and we saw as many cpus as we expected");
 
 }
 

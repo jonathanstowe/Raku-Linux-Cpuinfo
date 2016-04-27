@@ -9,7 +9,7 @@ use Linux::Cpuinfo;
 
 ok(my $ci = Linux::Cpuinfo.new, "new Linux::Cpuinfo - no args");
 isa-ok($ci, Linux::Cpuinfo, "and it is the right sort of object");
-ok($ci.num_cpus > 0, "got some CPUs");
+ok($ci.num-cpus > 0, "got some CPUs");
 
 my $count_cpus = 0;
 for $ci.cpus -> $cpu {
@@ -22,7 +22,7 @@ for $ci.cpus -> $cpu {
    }
 }
 
-is($ci.num_cpus, $count_cpus, "and we saw as many cpus as we expected");
+is($ci.num-cpus, $count_cpus, "and we saw as many cpus as we expected");
 
 done-testing();
 # vim: expandtab shiftwidth=4 ft=perl6

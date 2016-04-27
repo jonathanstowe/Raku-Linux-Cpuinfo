@@ -23,7 +23,7 @@ my @procs = (
 
 for @procs -> $proc {
    ok(my $ci = Linux::Cpuinfo.new(filename => $proc<filename>, arch => $proc<arch>), "get cpu for $proc<arch>");
-   is($ci.num_cpus, $proc<num_cpus>, "and it has the number of cpus we expected");
+   is($ci.num-cpus, $proc<num_cpus>, "and it has the number of cpus we expected");
 
    my $cpu = $ci.cpus[0];
    for $cpu.fields.keys -> $field {
