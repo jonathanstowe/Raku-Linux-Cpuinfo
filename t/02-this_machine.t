@@ -3,6 +3,7 @@
 use v6.c;
 
 use Test;
+plan 228;
 
 use Linux::Cpuinfo;
 

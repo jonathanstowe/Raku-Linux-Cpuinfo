@@ -3,6 +3,8 @@
 use v6.c;
 
 use Test;
+plan 26;
+
 use Linux::Cpuinfo;
 
 my @procs = (

@@ -3,6 +3,7 @@
 use v6.c;
 
 use Test;
+plan 2;
 
 use-ok('Linux::Cpuinfo', 'Linux::Cpuinfo can be used');
 use-ok('Linux::Cpuinfo::Cpu', 'Linux::Cpuinfo::Cpu can be used');
