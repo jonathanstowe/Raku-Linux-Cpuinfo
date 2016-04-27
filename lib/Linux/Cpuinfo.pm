@@ -43,7 +43,7 @@ in Perl programs.
 
 =end pod
 
-class Linux::Cpuinfo:ver<0.0.6>:auth<github:jonathanstowe> {
+class Linux::Cpuinfo:ver<0.0.7>:auth<github:jonathanstowe> {
     has Str $.filename = '/proc/cpuinfo';
     has Linux::Cpuinfo::Cpu @.cpus;
     has Int $.num-cpus;
