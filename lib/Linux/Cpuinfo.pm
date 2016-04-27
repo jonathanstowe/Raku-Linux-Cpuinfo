@@ -54,7 +54,7 @@ class Linux::Cpuinfo:ver<0.0.6>:auth<github:jonathanstowe> {
     #| that contain the details of each cpu core in the system.  This may be more than
     #| the physical cores in the processor chip(s) if the processor has some mechanism
     #| such as "hyper-threading".
-    multi method cpus() {
+    method cpus() {
         if not @!cpus.elems > 0 {
             my Buf $buf = Buf.new;
 
