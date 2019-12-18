@@ -33,7 +33,7 @@ Linux::Cpuinfo - Object Oriented Interface to /proc/cpuinfo
 On Linux systems various information about the CPU ( or CPUs ) in the
 computer can be gleaned from C</proc/cpuinfo>. This module provides an
 object oriented interface to that information for relatively simple use
-in Perl programs.
+in Raku programs.
 
 =end DESCRIPTION
 

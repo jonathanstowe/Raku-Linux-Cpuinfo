@@ -19,7 +19,7 @@ accessor methods for each of the fields.
 
 =begin METHODS
 
-The below is a list of fields that I found when I fist documented the Perl 5
+The below is a list of fields that I found when I first documented the Perl 5
 version of this module, the actual methods present will be generated at run-time
 from the field names found in the /proc/cpuinfo so will almost certainly differ.
 

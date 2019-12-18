@@ -1,15 +1,16 @@
 {
   "name": "Linux::Cpuinfo",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "auth": "github:jonathanstowe",
   "api": "1.0",
-  "source-url": "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
+  "source-url": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo.git",
   "support": {
-    "source": "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo/issues/",
+    "source": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo/issues/",
     "email": "jns+git@gellyfish.co.uk"
   },
   "perl": "6.*",
+  "raku": "6.*",
   "resources": [
   ],
   "build-depends": [
@@ -35,5 +36,5 @@
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "description": "Get the kernel CPU information on Linux",
-  "meta-version": "0"
+  "meta-version": "1"
 }

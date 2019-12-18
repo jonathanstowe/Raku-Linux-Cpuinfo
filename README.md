@@ -23,11 +23,11 @@ Obtain Linux CPU information.
 On Linux systems various information about the CPU ( or CPUs ) in the
 computer can be gleaned from ```/proc/cpuinfo```. This module provides an
 object oriented interface to that information for relatively simple use
-in Perl programs.
+in Raku programs.
 
 ## Installation
 
-Assuming you have a working perl6 installation you should be able to
+Assuming you have a working Rakudo installation you should be able to
 install this with *zef* :
 
     # From the source directory
@@ -40,7 +40,7 @@ install this with *zef* :
 
 ## Support
 
-Suggestions/patches are welcomed via github at https://github.com/jonathanstowe/p6-Linux-Cpuinfo/issues
+Suggestions/patches are welcomed via github at https://github.com/jonathanstowe/Raku-Linux-Cpuinfo/issues
 
 I'd be particularly interested in the /proc/cpuinfo from a variety of
 architectures to test against, the ones that I already have can be seen
