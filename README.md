@@ -2,7 +2,7 @@
 
 Obtain Linux CPU information.
 
-[![Build Status](https://travis-ci.org/jonathanstowe/p6-Linux-Cpuinfo.svg?branch=master)](https://travis-ci.org/jonathanstowe/p6-Linux-Cpuinfo)
+![Build Status](https://github.com/jonathanstowe/Linux-Cpuinfo/workflows/CI/badge.svg)
 
 ## Synopsis
 
