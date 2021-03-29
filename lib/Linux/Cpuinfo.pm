@@ -102,4 +102,4 @@ class Linux::Cpuinfo:ver<0.0.9>:auth<github:jonathanstowe>:api<1.0> {
         $!num-cpus;
     }
 }
-# vim: expandtab shiftwidth=4 ft=perl6
+# vim: expandtab shiftwidth=4 ft=raku

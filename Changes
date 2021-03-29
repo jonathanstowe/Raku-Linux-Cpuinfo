@@ -1,3 +1,6 @@
+v0.1.0		Mon 29 Mar 09:43:02 BST 2021
+	* Spring clean
+	* Switch to GH actions for CI
 v0.0.10		Wed 18 Dec 11:05:10 GMT 2019
 	* Raku rename
 v0.0.9		Sun 13 Jan 11:15:20 GMT 2019

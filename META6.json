@@ -1,6 +1,6 @@
 {
   "name": "Linux::Cpuinfo",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "auth": "github:jonathanstowe",
   "api": "1.0",
   "source-url": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo.git",

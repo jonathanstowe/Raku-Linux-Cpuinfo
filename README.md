@@ -6,7 +6,7 @@ Obtain Linux CPU information.
 
 ## Synopsis
 
-```perl6
+```raku
   use Linux::Cpuinfo;
 
   my $cpuinfo = Linux::Cpuinfo.new();
