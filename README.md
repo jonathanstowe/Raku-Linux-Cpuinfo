@@ -2,7 +2,7 @@
 
 Obtain Linux CPU information.
 
-![Build Status](https://github.com/jonathanstowe/Linux-Cpuinfo/workflows/CI/badge.svg)
+![Build Status](https://github.com/jonathanstowe/Raku-Linux-Cpuinfo/workflows/CI/badge.svg)
 
 ## Synopsis
 
