@@ -1,3 +1,5 @@
+v0.1.1	Sun  7 Aug 09:47:22 BST 2022
+	* Upload to zef repository
 v0.1.0		Mon 29 Mar 09:43:02 BST 2021
 	* Spring clean
 	* Switch to GH actions for CI
@@ -13,3 +15,4 @@ v0.0.6		Sat Mar 12 13:54:46 2016 +0000
 	* Remove version literal
 	* done -> done-testing
 	* Add vim modeline
+
