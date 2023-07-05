@@ -89,7 +89,7 @@
           "purpose": null,
           "children": [
             {
-              "name": "Cpuinfo.pm",
+              "name": "Cpuinfo.rakumod",
               "type": "file"
             },
             {
@@ -99,7 +99,7 @@
               "children": [
                 {
                   "type": "file",
-                  "name": "Cpu.pm"
+                  "name": "Cpu.rakumod"
                 }
               ]
             }

@@ -1,9 +1,9 @@
-#!raku
+#!/usr/bin/env raku
 
 use v6;
 
 use Test;
-plan 332;
+
 
 use Linux::Cpuinfo;
 

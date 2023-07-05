@@ -6,8 +6,8 @@
   ],
   "raku": "6.*",
   "provides": {
-    "Linux::Cpuinfo::Cpu": "lib/Linux/Cpuinfo/Cpu.pm",
-    "Linux::Cpuinfo": "lib/Linux/Cpuinfo.pm"
+    "Linux::Cpuinfo::Cpu": "lib/Linux/Cpuinfo/Cpu.rakumod",
+    "Linux::Cpuinfo": "lib/Linux/Cpuinfo.rakumod"
   },
   "tags": [
     "linux",
@@ -17,7 +17,7 @@
   ],
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "source-url": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo.git",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "auth": "zef:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
